@@ -1,0 +1,15 @@
+# Proposed Wearable Glove Design
+## 1. Design Overview
+The proposed wearable glove is designed to collect hand-movement data for preliminary Parkinson's motor-function screening and monitoring.
+## 2. Proposed Sensor Placement
+- **Flex sensors:** Positioned along selected fingers to measure finger bending.
+- **IMU sensor:** Planned for the back of the hand to measure movement and orientation.
+- **Grip/force sensor:** Planned for the palm or an appropriate gripping area to measure grip pressure.
+- **ESP32 controller:** Planned for the wrist area to collect sensor readings and support communication.
+- **Battery and charging circuit:** To be selected and positioned safely after power requirements are assessed.
+## 3. Proposed Working
+The user performs guided hand movements. The sensors are intended to capture movement-related readings. The collected data will later be processed by software and AI/ML techniques to explore movement patterns.
+## 4. Current Status
+This is a conceptual design only. The physical glove, sensor placement, electrical connections, software, and AI/ML model have not yet been implemented or tested.
+## 5. Safety Considerations
+The design will require electrical safety checks, secure sensor mounting, and safe battery integration before any physical testing. It is intended to support preliminary screening and monitoring, not to independently diagnose Parkinson's disease.
